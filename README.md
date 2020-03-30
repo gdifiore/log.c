@@ -1,6 +1,8 @@
 # log.c
 A simple logging library implemented in C99
 
+**Modified by me ([gdifiore](https://github.com/gdifiore)) to make it compile with colors by default**
+
 ![screenshot](https://cloud.githubusercontent.com/assets/3920290/23831970/a2415e96-0723-11e7-9886-f8f5d2de60fe.png)
 
 
@@ -61,9 +63,9 @@ released.
 
 
 #### LOG_USE_COLOR
-If the library is compiled with `-DLOG_USE_COLOR` ANSI color escape codes will
-be used when printing.
-
+~~If the library is compiled with `-DLOG_USE_COLOR` ANSI color escape codes will
+be used when printing.~~
+On by default in this fork
 
 ## License
 This library is free software; you can redistribute it and/or modify it under
